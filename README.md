@@ -1,4 +1,4 @@
-# Mini E-Commerce ETL Pipeline (Data Engineering Project)
+# Mini E-Commerce ETL Pipeline 
 
 This project simulates a real E-commerce data engineering workflow. 
 It includes data ingestion, transformation, modeling, and SQL analytics — designed to showcase Big Data engineering skills for roles like TikTok’s Data Platform - E-Commerce Team.
@@ -12,9 +12,8 @@ It includes data ingestion, transformation, modeling, and SQL analytics — desi
 - End-to-end pipeline: Extract → Transform → Load → Query
 
 ## Project Structure
-data/
-│── raw_orders.json # raw “Kafka-like” events
-│── clean_orders.parquet # analytics-ready fact table
+raw_orders.json # raw “Kafka-like” events
+clean_orders.parquet # analytics-ready fact table
 generate_orders.py # ingestion simulation
 etl_pipeline.py # ETL pipeline (clean + transform + load)
 analytics.py # SQL analytics queries
